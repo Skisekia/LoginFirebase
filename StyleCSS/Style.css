@@ -1,3 +1,15 @@
+/* Contenedor del logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el logo */
+.logo {
+    width: 100px;  /* Ajusta este tamaño según tus necesidades */
+    height: auto;
+}
+
 /* Estilo base para el cuerpo de la página */
 body {
     /* Fuente predeterminada para todo el documento */

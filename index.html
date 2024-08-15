@@ -9,9 +9,6 @@
     <!-- Content Security Policy para permitir estilos desde gstatic.com -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://www.gstatic.com; connect-src 'self' https://identitytoolkit.googleapis.com https://www.googleapis.com https://firestore.googleapis.com; img-src 'self' data:;">
 
-
-
-
     <!-- Firebase App (debe cargarse primero) -->
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
     <!-- Firebase Authentication -->
@@ -23,7 +20,11 @@
 
 </head>
 <body>
+
     <div class="login-container">
+        <div class="logo-container">
+            <img src="StyleCSS/loginfirebase.png" alt="Logo" class="logo">
+        </div>
         <h2>Iniciar Sesión</h2>
         <form id="loginForm">
             <input type="email" id="email" placeholder="Correo electrónico" required>
