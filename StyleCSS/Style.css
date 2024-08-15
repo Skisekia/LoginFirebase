@@ -1,0 +1,86 @@
+/* Estilo base para el cuerpo de la página */
+body {
+    /* Fuente predeterminada para todo el documento */
+    font-family: Arial, sans-serif;
+   
+   background: rgb(195,165,34);
+    background: linear-gradient(0deg, rgba(195,165,34,1) 1%, rgba(253,131,45,1) 100%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Altura completa de la ventana */
+    height: 100vh;
+    /* Eliminar márgenes predeterminados */
+    margin: 0;
+}
+
+/* Estilos para el contenedor del formulario de inicio de sesión */
+.login-container {
+    /* Fondo blanco para el contenedor */
+    background-color: #fff;
+    /* Espaciado interno (padding) alrededor del contenido */
+    padding: 5%;
+    /* Bordes redondeados para suavizar el contenedor */
+    border-radius: 8px;
+    /* Sombra suave para darle profundidad al contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Ancho fijo para el contenedor */
+    width: 350px;
+    /* Centrar el texto dentro del contenedor */
+    text-align: center;
+}
+
+/* Estilos para el título del formulario (h2) */
+h2 {
+    /* Margen inferior para separar el título del resto del contenido */
+    margin-bottom: 20px;
+    /* Color del texto del título */
+    color: #333;
+}
+
+/* Estilos para los campos de entrada (input) */
+input {
+    /* Ancho completo del contenedor */
+    width: 100%;
+    /* Espaciado interno (padding) dentro de los campos */
+    padding: 10px;
+    /* Margen inferior para separar los campos entre sí */
+    margin-bottom: 10px;
+    /* Borde gris claro para los campos de entrada */
+    border: 1px solid #ccc;
+    /* Bordes ligeramente redondeados */
+    border-radius: 4px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+button {
+    /* Ancho completo del contenedor */
+    width: 70%;
+    /* Espaciado interno (padding) dentro del botón */
+    padding: 10px;
+    /* Color de fondo azul para el botón */
+    background-color: #007bff;
+    /* Eliminar bordes predeterminados */
+    border: none;
+    /* Color del texto del botón */
+    color: white;
+    /* Bordes redondeados para suavizar el botón */
+    border-radius: 4px;
+    /* Cambiar el cursor al pasar sobre el botón */
+    cursor: pointer;
+}
+
+/* Estilos para el botón al pasar el ratón por encima (hover) */
+button:hover {
+    /* Oscurecer el color de fondo del botón al pasar el ratón */
+    background-color: #0056b3;
+}
+
+/* Estilos para el mensaje de error */
+#error-message {
+    /* Color rojo para el texto de error */
+    color: red;
+    /* Margen superior para separar el mensaje de error del resto del contenido */
+    margin-top: 10px;
+}
