@@ -6,12 +6,14 @@
     <title>Inicio de Sesión</title>
     <script src="JavaScript/Script.js"></script>
     <link rel="stylesheet" href="StyleCSS/Style.css">
-    
+
+    <!-- Content Security Policy para permitir estilos desde gstatic.com -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://www.gstatic.com;">
+
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
-
 </head>
 <body>
     <div class="login-container">
@@ -23,6 +25,5 @@
         </form>
         <div id="error-message"></div>
     </div>
-    
 </body>
 </html>
