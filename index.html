@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de Sesión</title>
-    <script src="JavaScript/Script.js"></script>
+
+    
+   <!-- <script src="JavaScript/Script.js"></script>-->
     <link rel="stylesheet" href="StyleCSS/Style.css">
 
     <!-- Content Security Policy para permitir estilos desde gstatic.com -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://www.gstatic.com;">
 
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+   <!-- <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>-->
+
+    <!-- Firebase App (debe cargarse primero) -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <!-- Firebase Authentication -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <!-- Firebase Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+   
+
 </head>
 <body>
     <div class="login-container">
@@ -24,5 +36,7 @@
         </form>
         <div id="error-message"></div>
     </div>
+
+    <script src="JavaScript/Script.js"></script>
 </body>
 </html>
